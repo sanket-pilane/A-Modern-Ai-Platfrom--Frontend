@@ -57,11 +57,10 @@ const Hero = () => {
                   height={490}
                 />
 
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Generating
-                    className={`absolute left-4 right-4 bottom-10 md:left-1/2 md:right-auto md:b-8 md:w-[31rem] md:-translate-x-1/2`}
-                  />
-                </ScrollParallax>
+                <Generating
+                  className={`absolute left-4 right-4 bottom-10 md:left-1/2 md:right-auto md:b-8 md:w-[31rem] md:-translate-x-1/2`}
+                />
+
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/90 border-n-1/10 rounded-2xl backdrop-blur border xl:flex">
                     {heroIcons.map((icon, index) => (
