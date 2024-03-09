@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { navigation } from "../contants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { HambugerMenu } from "../design/Header";
+import { HambugerMenu } from "./design/Header";
 import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
