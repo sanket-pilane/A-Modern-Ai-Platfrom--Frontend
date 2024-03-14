@@ -62,7 +62,7 @@ const Hero = () => {
                 />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/90 border-n-1/10 rounded-2xl backdrop-blur border xl:flex">
+                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/90 border-n-1/10 rounded-2xl backdrop-blur border xl:flex ">
                     {heroIcons.map((icon, index) => (
                       <li className="p-4">
                         <img src={icon} alt={icon} width={24} height={25} />
